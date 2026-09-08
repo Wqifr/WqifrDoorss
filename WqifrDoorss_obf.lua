@@ -12,11 +12,20 @@ if not pcall(function() return game:GetService("Players").LocalPlayer end) then
     while true do task.wait(9e9) end
 end
 
+local _bxor = (bit32 and bit32.bxor) or (bit and bit.bxor) or function(a,b)
+    local r,p=0,1
+    for i=0,31 do
+        local a1,b1=a%2,b%2
+        if a1~=b1 then r=r+p end
+        a,b,p=math.floor(a/2),math.floor(b/2),p*2
+    end
+    return r
+end
 local function _d(t,k)
     k=k or 42
     local r={}
     for i=1,#t do
-        r[i]=string.char(bit32.bxor(t[i],(k+(i-1)%7)))
+        r[i]=string.char(_bxor(t[i],(k+(i-1)%7)))
     end
     return table.concat(r)
 end
