@@ -1,10 +1,9 @@
 -- WqifrDoorss | protected
 -- do not deobfuscate or redistribute
-local _E="O7+qzRvf7lioNlI0AMWqoA=="
-local _V=54666
+local _E="B/H9JnhGD87pRphv6lPWSg=="
+local _V=22951
 
--- anti-tamper
-local _at="428601"
+local _at="239628"
 if not game or not game.GetService then
     while true do task.wait(9e9) end
 end
@@ -29,9 +28,18 @@ local function _d(t,k)
     end
     return table.concat(r)
 end
+    ██╗    ██╗ ██████╗ ██╗███████╗██████╗ ██████╗  ██████╗  ██████╗ ██████╗ ███████╗███████╗
+    ██║    ██║██╔═══██╗██║██╔════╝██╔══██╗██╔══██╗██╔═══██╗██╔═══██╗██╔══██╗██╔════╝██╔════╝
+    ██║ █╗ ██║██║   ██║██║█████╗  ██████╔╝██║  ██║██║   ██║██║   ██║██████╔╝███████╗███████╗
+    ██║███╗██║██║▄▄ ██║██║██╔══╝  ██╔══██╗██║  ██║██║   ██║██║   ██║██╔══██╗╚════██║╚════██║
+    ╚███╔███╔╝╚██████╔╝██║██║     ██║  ██║██████╔╝╚██████╔╝╚██████╔╝██║  ██║███████║███████║
+     ╚══╝╚══╝  ╚══▀▀═╝ ╚═╝╚═╝     ╚═╝ ╚═╝╚═════╝  ╚═════╝  ╚═════╝ ╚═╝ ╚═╝╚══════╝╚══════╝
+
+    WqifrDoorss v1.0 — DOORS Script Hub
+    20+ features | key system | protected
 
 local VALID_KEYS = {
-    [_d({206,228,227,255,253,196,245,243,186,189,191},138)] = true,
+    [_d({108,70,69,89,95,102,75,81,24,27,25},40)] = true,
 }
 
 local passedKey = (getgenv and getgenv().WQIFR_KEY) or nil
@@ -41,39 +49,39 @@ local function VerifyKey(key)
 end
 
 if not (passedKey and VerifyKey(passedKey)) then
-    local _Players = game:GetService(_d({119,68,72,83,78,94,94},39))
+    local _Players = game:GetService(_d({239,172,160,187,166,182,182},191))
     local _Player = _Players.LocalPlayer
-    local _TweenService = game:GetService(_d({37,5,22,17,27,37,18,3,4,26,23,16},113))
-    local _UIS = game:GetService(_d({10,19,4,16,42,10,21,42,20,50,7,17,18,12,60,5},95))
+    local _TweenService = game:GetService(_d({115,95,76,79,69,127,72,85,94,64,73,78},39))
+    local _UIS = game:GetService(_d({151,176,161,183,143,169,184,183,183,151,160,180,177,161,161,166},194))
 
-    local KeyGui = Instance.new(_d({16,39,55,35,34,38,14,54,45},67))
-    KeyGui.Name = _d({210,247,238,238,251,193,238,252,213,254,251,253,239,230},133)
+    local KeyGui = Instance.new(_d({79,126,108,122,69,79,101,105,116},28))
+    KeyGui.Name = _d({38,3,26,18,7,61,18,8,33,10,7,1,19,26},113)
     KeyGui.ResetOnSpawn = false
-    pcall(function() KeyGui.Parent = game:GetService(_d({31,50,44,58,39,20,11},92)) end)
+    pcall(function() KeyGui.Parent = game:GetService(_d({16,59,39,51,16,45,48},83)) end)
     if not KeyGui.Parent then KeyGui.Parent = _Player.PlayerGui end
 
-    local Overlay = Instance.new(_d({17,42,56,55,62},87))
-do local _KadB1yJ1QkBS=344;_zKaDXXCuklls=nil end
+    local Overlay = Instance.new(_d({13,62,44,35,42},75))
+if false then _ouvHggbAielk=124 end
     Overlay.Size = UDim2.new(1, 0, 1, 0)
     Overlay.BackgroundColor3 = Color3.new(0, 0, 0)
     Overlay.BackgroundTransparency = 0.4
     Overlay.Parent = KeyGui
 
-    local KeyFrame = Instance.new(_d({5,54,36,43,34},67))
+    local KeyFrame = Instance.new(_d({89,82,64,79,70},31))
     KeyFrame.Size = UDim2.new(0, 380, 0, 260)
     KeyFrame.Position = UDim2.new(0.5, -190, 0.5, -130)
     KeyFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 20)
     KeyFrame.BorderSizePixel = 0
     KeyFrame.Parent = KeyGui
-    Instance.new(_d({157,128,137,164,190,163,171,186},200), KeyFrame).CornerRadius = UDim.new(0, 10)
+    Instance.new(_d({204,211,216,243,239,240,250,235},153), KeyFrame).CornerRadius = UDim.new(0, 10)
 
-    local keyStroke = Instance.new(_d({108,115,104,72,79,81,84,92},57))
+    local keyStroke = Instance.new(_d({26,25,2,38,33,59,62,42},79))
     keyStroke.Color = Color3.fromRGB(120, 50, 200)
     keyStroke.Thickness = 2
     keyStroke.Parent = KeyFrame
 
-    local KeyTitle = Instance.new(_d({75,69,89,86,111,69,71,122,76},31))
-    KeyTitle.Text = _d({99,68,95,81,74,125,85,91,71,69,68,24,79,11,26,5},52)
+    local KeyTitle = Instance.new(_d({99,93,65,78,119,93,95,82,84},55))
+    KeyTitle.Text = _d({242,215,206,206,219,238,196,202,212,212,219,137,220,154,139,150},165)
     KeyTitle.Size = UDim2.new(1, 0, 0, 40)
     KeyTitle.Position = UDim2.new(0, 0, 0, 10)
     KeyTitle.BackgroundTransparency = 1
@@ -82,8 +90,8 @@ do local _KadB1yJ1QkBS=344;_zKaDXXCuklls=nil end
     KeyTitle.TextSize = 20
     KeyTitle.Parent = KeyFrame
 
-    local KeySub = Instance.new(_d({5,55,43,32,25,55,53,52,62},81))
-    KeySub.Text = _d({92,116,111,121,111,62,102,118,111,105,60,118,123,102,57,110,116,60,126,113,113,109,115,117,105,120},25)
+    local KeySub = Instance.new(_d({99,93,65,78,119,93,95,82,84},55))
+    KeySub.Text = _d({216,240,235,197,211,130,218,242,235,237,128,202,199,218,189,234,240,128,194,205,205,233,247,241,213,196},157)
     KeySub.Size = UDim2.new(1, 0, 0, 20)
     KeySub.Position = UDim2.new(0, 0, 0, 48)
     KeySub.BackgroundTransparency = 1
@@ -92,9 +100,9 @@ do local _KadB1yJ1QkBS=344;_zKaDXXCuklls=nil end
     KeySub.TextSize = 13
     KeySub.Parent = KeyFrame
 
-    local KeyBox = Instance.new(_d({245,199,219,208,231,201,223},161))
-    KeyBox.PlaceholderText = _d({117,71,84,92,76,10,64,64,95,7,64,76,88,78,11,8,9},37)
-local _nFdePiwAkOCy=string.rep('\0',1)
+    local KeyBox = Instance.new(_d({217,235,247,228,211,253,235},141))
+    KeyBox.PlaceholderText = _d({105,91,72,72,88,30,84,92,67,27,84,88,76,90,23,20,21},57)
+do local _jSuZWdKWIzhs=123;_wjruOUZBXKOC=nil end
     KeyBox.Text = ""
     KeyBox.Size = UDim2.new(0.85, 0, 0, 38)
     KeyBox.Position = UDim2.new(0.075, 0, 0, 85)
@@ -106,10 +114,10 @@ local _nFdePiwAkOCy=string.rep('\0',1)
     KeyBox.ClearTextOnFocus = false
     KeyBox.BorderSizePixel = 0
     KeyBox.Parent = KeyFrame
-    Instance.new(_d({145,140,133,168,186,167,175,182},196), KeyBox).CornerRadius = UDim.new(0, 6)
+    Instance.new(_d({157,128,137,164,190,163,171,186},200), KeyBox).CornerRadius = UDim.new(0, 6)
 
-    local VerifyBtn = Instance.new(_d({104,88,70,75,2,52,54,72,82,80},60))
-    VerifyBtn.Text = _d({222,236,248,226,234,244,174,195,236,243},136)
+    local VerifyBtn = Instance.new(_d({39,17,13,2,53,13,13,7,27,27},115))
+    VerifyBtn.Text = _d({17,45,59,35,45,53,109,12,45,48},71)
     VerifyBtn.Size = UDim2.new(0.85, 0, 0, 38)
     VerifyBtn.Position = UDim2.new(0.075, 0, 0, 135)
     VerifyBtn.BackgroundColor3 = Color3.fromRGB(80, 30, 150)
@@ -118,10 +126,10 @@ local _nFdePiwAkOCy=string.rep('\0',1)
     VerifyBtn.TextSize = 15
     VerifyBtn.BorderSizePixel = 0
     VerifyBtn.Parent = KeyFrame
-    Instance.new(_d({211,206,203,230,248,229,233,244},134), VerifyBtn).CornerRadius = UDim.new(0, 6)
+    Instance.new(_d({79,82,95,114,108,113,69,104},26), VerifyBtn).CornerRadius = UDim.new(0, 6)
 
-    local GetKeyBtn = Instance.new(_d({42,26,248,245,192,246,240,10,16,238},126))
-    GetKeyBtn.Text = _d({17,50,44,121,17,62,37,118,127,28,48,41,56,51,36,51,113},86)
+    local GetKeyBtn = Instance.new(_d({217,235,247,228,211,231,231,249,225,225},141))
+    GetKeyBtn.Text = _d({101,70,80,5,109,66,81,2,11,96,76,85,68,71,80,71,13},34)
     GetKeyBtn.Size = UDim2.new(0.85, 0, 0, 32)
     GetKeyBtn.Position = UDim2.new(0.075, 0, 0, 182)
     GetKeyBtn.BackgroundColor3 = Color3.fromRGB(35, 35, 50)
@@ -130,12 +138,12 @@ local _nFdePiwAkOCy=string.rep('\0',1)
     GetKeyBtn.TextSize = 13
     GetKeyBtn.BorderSizePixel = 0
     GetKeyBtn.Parent = KeyFrame
-    Instance.new(_d({215,202,199,234,244,233,237,240},130), GetKeyBtn).CornerRadius = UDim.new(0, 6)
+    Instance.new(_d({2,17,26,53,41,50,56,37},87), GetKeyBtn).CornerRadius = UDim.new(0, 6)
 
-    local StatusLabel = Instance.new(_d({150,166,188,177,138,166,170,167,175},194))
+    local StatusLabel = Instance.new(_d({252,204,210,223,224,204,204,205,197},168))
     StatusLabel.Text = ""
     StatusLabel.Size = UDim2.new(1, 0, 0, 20)
-if false then _PvmTcqejkYgb=186 end
+local _tdBYKztQcVqT=string.rep('\0',1)
     StatusLabel.Position = UDim2.new(0, 0, 0, 222)
     StatusLabel.BackgroundTransparency = 1
     StatusLabel.TextColor3 = Color3.fromRGB(255, 80, 80)
@@ -144,10 +152,9 @@ if false then _PvmTcqejkYgb=186 end
     StatusLabel.Parent = KeyFrame
 
     GetKeyBtn.MouseButton1Click:Connect(function()
-
         if setclipboard then
             setclipboard("https://discord.gg/YourServerHere")
-            StatusLabel.Text = _d({80,124,101,116,119,107,126,52,121,127,121,115,57,121,123,101,127,114,124,57,110,123,53,117,123,113,105,120,123,116,100,115,57},20)
+            StatusLabel.Text = _d({38,10,23,6,9,21,12,66,15,13,11,13,71,11,13,19,13,0,2,71,28,13,67,7,9,15,23,10,13,2,22,1,71},98)
             StatusLabel.TextColor3 = Color3.fromRGB(100, 200, 100)
         end
     end)
@@ -157,7 +164,7 @@ if false then _PvmTcqejkYgb=186 end
     VerifyBtn.MouseButton1Click:Connect(function()
         local inputKey = KeyBox.Text:gsub("%s+", "")
         if VerifyKey(inputKey) then
-            StatusLabel.Text = _d({39,8,23,79,6,20,0,5,11,7,10,20,80,82,32,2,15,11,25,31,21,66,67,64},108)
+            StatusLabel.Text = _d({118,91,70,96,55,39,49,84,88,86,37,37,99,99,113,81,94,36,40,44,36,19,16,17},61)
             StatusLabel.TextColor3 = Color3.fromRGB(100, 255, 100)
             keyVerified = true
             _TweenService:Create(KeyFrame, TweenInfo.new(0.3), {Position = UDim2.new(0.5, -190, 0.5, -180), BackgroundTransparency = 1}):Play()
@@ -165,7 +172,7 @@ if false then _PvmTcqejkYgb=186 end
             task.wait(0.4)
             KeyGui:Destroy()
         else
-            StatusLabel.Text = _d({221,251,224,246,244,240,254,180,254,243,238,185,185,206,230,236,182,246,255,248,243,250,187},148)
+            StatusLabel.Text = _d({235,205,210,196,202,206,204,130,200,193,220,135,135,252,208,218,132,196,193,198,193,204,141},162)
             StatusLabel.TextColor3 = Color3.fromRGB(255, 80, 80)
             _TweenService:Create(KeyFrame, TweenInfo.new(0.05), {Position = UDim2.new(0.5, -195, 0.5, -130)}):Play()
             task.wait(0.05)
@@ -178,28 +185,26 @@ if false then _PvmTcqejkYgb=186 end
     repeat task.wait(0.1) until keyVerified
 end
 
-print(_d({124,127,88,67,77,94,105,72,71,91,89,88,113,13,108,77,80,10,93,73,95,78,78,64,79,79,12,8249,7,68,70,75,79,69,67,64,8,65,95,73,2,3,9},39))
+print(_d({123,118,83,74,66,87,98,79,78,80,80,87,120,6,107,68,91,3,82,64,84,73,71,75,70,64,5,8242,0,77,77,66,64,76,72,71,1,74,86,70,11,8,14},32))
 
-local Players = game:GetService(_d({56,5,11,18,9,31,29},104))
-local RunService = game:GetService(_d({100,66,86,106,95,73,74,95,84,93},54))
-local UserInputService = game:GetService(_d({111,72,89,79,119,81,48,79,79,111,88,76,73,41,89,94},58))
-local Lighting = game:GetService(_d({98,70,87,89,70,90,90,73},46))
-local ReplicatedStorage = game:GetService(_d({236,218,176,173,171,160,165,202,218,164,146,182,172,182,223,216,165},190))
-local TweenService = game:GetService(_d({124,94,79,78,66,126,75,90,95,67,72,73},40))
-local Workspace = game:GetService(_d({147,170,180,172,187,185,171,167,160},196))
+local Players = game:GetService(_d({221,226,238,233,244,224,224},141))
+local RunService = game:GetService(_d({253,197,223,225,214,198,195,198,211,212},175))
+local UserInputService = game:GetService(_d({229,194,215,193,253,219,198,197,197,225,214,198,195,223,211,212},176))
+local Lighting = game:GetService(_d({31,61,50,62,35,49,55,52},83))
+local ReplicatedStorage = game:GetService(_d({109,37,49,46,42,39,36,75,37,37,17,55,43,55,94,39,36},63))
+local TweenService = game:GetService(_d({11,23,4,7,13,55,0,45,22,8,1,6},95))
+local Workspace = game:GetService(_d({245,204,214,206,213,215,201,193,198},162))
 local Camera = Workspace.CurrentCamera
 
 local Player = Players.LocalPlayer
 local Character = Player.Character or Player.CharacterAdded:Wait()
-local Humanoid = Character:WaitForChild(_d({242,206,209,220,208,208,169,222},186))
-local HRP = Character:WaitForChild(_d({27,33,56,55,57,55,48,55,6,58,57,35,8,56,33,32},83))
+local Humanoid = Character:WaitForChild(_d({0,60,39,42,34,34,39,44},72))
+local HRP = Character:WaitForChild(_d({110,82,69,72,68,68,69,66,117,71,70,94,123,77,84,83},38))
 
 local State = {
-
     EntityESP = false,
     ItemESP = false,
     DoorESP = false,
-
     GodMode = false,
     SpeedBypass = false,
     SpeedValue = 26,
@@ -209,14 +214,11 @@ local State = {
     FOVEnabled = false,
     FOVValue = 70,
     NoCameraShake = false,
-local _DqYr1Y1rJxAA=string.rep('\0',5)
     Fullbright = false,
-
     AntiA90 = false,
     AntiScreech = false,
     EntityNotifier = false,
     NoJumpscare = false,
-
     AutoLoot = false,
     AutoHide = false,
     AutoRevive = false,
@@ -231,14 +233,14 @@ local Minimized = false
 
 local function RefreshCharacter()
     Character = Player.Character or Player.CharacterAdded:Wait()
-    Humanoid = Character:WaitForChild(_d({207,253,228,235,229,227,228,227},135))
-    HRP = Character:WaitForChild(_d({12,48,43,38,38,38,35,32,23,41,40,60,25,43,54,49},68))
+    Humanoid = Character:WaitForChild(_d({205,243,234,233,231,229,226,225},133))
+    HRP = Character:WaitForChild(_d({211,233,240,255,241,207,200,255,206,242,241,235,240,192,233,232},155))
 end
 
 Player.CharacterAdded:Connect(function(char)
     Character = char
-    Humanoid = char:WaitForChild(_d({203,241,232,231,233,231,224,231},131))
-    HRP = char:WaitForChild(_d({246,202,173,160,172,172,173,218,237,175,174,182,147,165,204,203},190))
+    Humanoid = char:WaitForChild(_d({212,232,243,254,206,206,203,248},156))
+    HRP = char:WaitForChild(_d({241,207,214,221,211,209,214,221,232,212,211,201,238,222,203,206},185))
 end)
 
 local function Disconnect(name)
@@ -247,7 +249,7 @@ local function Disconnect(name)
         Connections[name] = nil
     end
 end
-if false then _ocOlWQwlfZSl=75 end
+local _GLDUwrHsdvwo=(function() return ({})[nil] end)()
 
 local function ClearESP(category)
     if ESPObjects[category] then
@@ -260,11 +262,11 @@ end
 
 local function CreateESPHighlight(target, color, name, category)
     if not target or not target.Parent then return end
-    category = category or _d({213,208,201,216},184)
+    category = category or _d({121,124,101,116},20)
     ESPObjects[category] = ESPObjects[category] or {}
 
-    local highlight = Instance.new(_d({114,82,91,85,82,86,39,82,79},58))
-    highlight.Name = _d({147,180,175,161,186,140,153,148,154},196) .. name
+    local highlight = Instance.new(_d({52,20,25,23,236,232,229,20,9},124))
+    highlight.Name = _d({205,234,245,251,236,218,243,202,196},154) .. name
     highlight.FillColor = color
     highlight.FillTransparency = 0.7
     highlight.OutlineColor = color
@@ -272,15 +274,15 @@ local function CreateESPHighlight(target, color, name, category)
     highlight.Adornee = target
     highlight.Parent = target
 
-    local bb = Instance.new(_d({193,237,233,234,229,231,232,241,224,194,243,238},131))
-    bb.Name = _d({65,102,113,127,104,87,125,116,114,116,70},22) .. name
+    local bb = Instance.new(_d({253,169,173,174,161,171,164,205,164,134,183,170},191))
+    bb.Name = _d({45,10,21,27,12,51,225,24,30,16,34},122) .. name
     bb.Size = UDim2.new(0, 200, 0, 30)
     bb.StudsOffset = Vector3.new(0, 3, 0)
     bb.AlwaysOnTop = true
     bb.Adornee = target
     bb.Parent = target
 
-    local label = Instance.new(_d({27,53,41,38,31,53,55,42,60},79))
+    local label = Instance.new(_d({235,165,185,182,143,165,167,218,172},191))
     label.Size = UDim2.new(1, 0, 1, 0)
     label.BackgroundTransparency = 1
     label.TextColor3 = color
@@ -288,7 +290,7 @@ local function CreateESPHighlight(target, color, name, category)
     label.TextStrokeColor3 = Color3.new(0, 0, 0)
     label.Font = Enum.Font.GothamBold
     label.TextSize = 14
-do local _TRySrVpVyluZ=55;_FWdYgTfzAqqQ=nil end
+if false then _GWSacdWwGJmA=276 end
     label.Text = name
     label.Parent = bb
 
@@ -298,21 +300,20 @@ do local _TRySrVpVyluZ=55;_FWdYgTfzAqqQ=nil end
 end
 
 local function BuildGUI()
-
     if GUI then GUI:Destroy() end
 
-    local ScreenGui = Instance.new(_d({205,252,210,196,199,205,227,235,246},158))
-    ScreenGui.Name = _d({147,180,175,161,186,141,165,171,183,181,180},196)
+    local ScreenGui = Instance.new(_d({195,242,224,246,241,251,209,229,248},144))
+    ScreenGui.Name = _d({30,59,34,42,63,10,32,38,56,56,63},73)
     ScreenGui.ResetOnSpawn = false
     ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-    pcall(function() ScreenGui.Parent = game:GetService(_d({129,172,182,160,129,178,161},194)) end)
+    pcall(function() ScreenGui.Parent = game:GetService(_d({232,195,223,203,232,197,216},171)) end)
     if not ScreenGui.Parent then ScreenGui.Parent = Player.PlayerGui end
 
     GUI = ScreenGui
 
-    local Main = Instance.new(_d({37,22,4,11,2},99))
-    Main.Name = _d({60,19,26,26},113)
+    local Main = Instance.new(_d({213,230,244,251,242},147))
+    Main.Name = _d({124,83,90,90},49)
     Main.Size = UDim2.new(0, 520, 0, 420)
     Main.Position = UDim2.new(0.5, -260, 0.5, -210)
     Main.BackgroundColor3 = Color3.fromRGB(15, 15, 20)
@@ -320,28 +321,28 @@ local function BuildGUI()
     Main.Parent = ScreenGui
     Main.ClipsDescendants = true
 
-    local corner = Instance.new(_d({41,52,61,16,242,239,231,14},124))
+    local corner = Instance.new(_d({199,218,215,250,228,249,253,224},146))
     corner.CornerRadius = UDim.new(0, 8)
     corner.Parent = Main
 
-    local stroke = Instance.new(_d({123,102,99,69,64,92,95,75},46))
+    local stroke = Instance.new(_d({222,197,222,250,253,255,250,238},139))
     stroke.Color = Color3.fromRGB(120, 50, 200)
     stroke.Thickness = 1.5
     stroke.Parent = Main
 
-    local TitleBar = Instance.new(_d({116,65,85,88,83},50))
-    TitleBar.Name = _d({61,3,31,0,8,44,14,27},105)
+    local TitleBar = Instance.new(_d({39,16,2,9,0},97))
+    TitleBar.Name = _d({38,26,0,25,19,53,25,0},114)
     TitleBar.Size = UDim2.new(1, 0, 0, 36)
     TitleBar.BackgroundColor3 = Color3.fromRGB(20, 20, 28)
     TitleBar.BorderSizePixel = 0
     TitleBar.Parent = Main
 
-    local titleCorner = Instance.new(_d({225,252,245,216,202,215,223,198},180))
+    local titleCorner = Instance.new(_d({233,244,253,208,178,175,167,206},188))
     titleCorner.CornerRadius = UDim.new(0, 8)
     titleCorner.Parent = TitleBar
 
-    local Title = Instance.new(_d({38,22,12,1,58,22,26,23,31},114))
-    Title.Text = _d({60,61,73,110,73,71,80,88,114,113,109,83,82,2,106,44,48,47},28)
+    local Title = Instance.new(_d({27,53,41,38,31,53,55,42,60},79))
+    Title.Text = _d({230,231,159,184,163,173,190,130,168,167,187,185,184,236,176,246,230,249},198)
     Title.Size = UDim2.new(0.7, 0, 1, 0)
     Title.BackgroundTransparency = 1
     Title.TextColor3 = Color3.fromRGB(180, 120, 255)
@@ -362,7 +363,6 @@ local function BuildGUI()
         if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
             dragging = false
         end
-local _1qCD1riQiXtA=bit32.bxor(6314,6037)
     end)
     UserInputService.InputChanged:Connect(function(input)
         if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
@@ -371,7 +371,7 @@ local _1qCD1riQiXtA=bit32.bxor(6314,6037)
         end
     end)
 
-    local CloseBtn = Instance.new(_d({216,232,246,251,210,228,230,248,226,224},140))
+    local CloseBtn = Instance.new(_d({234,218,184,181,128,182,176,202,208,174},190))
     CloseBtn.Text = "X"
     CloseBtn.Size = UDim2.new(0, 30, 0, 30)
     CloseBtn.Position = UDim2.new(1, -35, 0, 3)
@@ -380,11 +380,10 @@ local _1qCD1riQiXtA=bit32.bxor(6314,6037)
     CloseBtn.Font = Enum.Font.GothamBold
     CloseBtn.TextSize = 14
     CloseBtn.Parent = TitleBar
-    Instance.new(_d({45,48,57,20,14,19,27,10},120), CloseBtn).CornerRadius = UDim.new(0, 6)
+    Instance.new(_d({66,81,90,117,105,114,120,101},23), CloseBtn).CornerRadius = UDim.new(0, 6)
 
     CloseBtn.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
-
         for k, v in pairs(Connections) do
             pcall(function() v:Disconnect() end)
         end
@@ -395,33 +394,33 @@ local _1qCD1riQiXtA=bit32.bxor(6314,6037)
         end
     end)
 
-    local MinBtn = Instance.new(_d({194,242,224,237,216,238,232,226,248,246},150))
+    local MinBtn = Instance.new(_d({230,214,204,193,244,194,204,198,220,218},178))
     MinBtn.Text = "—"
     MinBtn.Size = UDim2.new(0, 30, 0, 30)
     MinBtn.Position = UDim2.new(1, -70, 0, 3)
     MinBtn.BackgroundColor3 = Color3.fromRGB(60, 60, 80)
     MinBtn.TextColor3 = Color3.new(1, 1, 1)
     MinBtn.Font = Enum.Font.GothamBold
-local _legQmQgKoyDC=string.rep('\0',5)
+local _1kdbUJDGyfwU=_bxor(6611,7794)
     MinBtn.TextSize = 14
     MinBtn.Parent = TitleBar
-    Instance.new(_d({57,36,45,0,2,31,23,30},108), MinBtn).CornerRadius = UDim.new(0, 6)
+    Instance.new(_d({115,110,107,70,88,69,73,84},38), MinBtn).CornerRadius = UDim.new(0, 6)
 
-    local TabBar = Instance.new(_d({19,36,54,53,60},85))
-    TabBar.Name = _d({107,33,35,0,34,54},63)
+    local TabBar = Instance.new(_d({202,255,239,226,245},140))
+    TabBar.Name = _d({99,89,91,120,90,78},55)
     TabBar.Size = UDim2.new(1, 0, 0, 32)
     TabBar.Position = UDim2.new(0, 0, 0, 36)
     TabBar.BackgroundColor3 = Color3.fromRGB(18, 18, 25)
     TabBar.BorderSizePixel = 0
     TabBar.Parent = Main
 
-    local TabBarLayout = Instance.new(_d({242,225,229,195,216,216,225,198,209,198,223,223},167))
+    local TabBarLayout = Instance.new(_d({6,29,25,63,36,44,21,50,45,58,35,35},83))
     TabBarLayout.FillDirection = Enum.FillDirection.Horizontal
     TabBarLayout.Padding = UDim.new(0, 2)
     TabBarLayout.Parent = TabBar
 
-    local Content = Instance.new(_d({244,193,213,216,211},178))
-    Content.Name = _d({51,30,28,7,17,27,2},112)
+    local Content = Instance.new(_d({21,38,52,59,50},83))
+    Content.Name = _d({63,18,16,11,229,239,246},124)
     Content.Size = UDim2.new(1, -16, 1, -76)
     Content.Position = UDim2.new(0, 8, 0, 72)
     Content.BackgroundTransparency = 1
@@ -431,7 +430,7 @@ local _legQmQgKoyDC=string.rep('\0',5)
     local ActiveTab = nil
 
     local function CreateTab(name)
-        local tabBtn = Instance.new(_d({146,162,176,189,136,190,184,178,168,166},198))
+        local tabBtn = Instance.new(_d({233,219,199,180,131,183,183,201,209,209},189))
         tabBtn.Name = name
         tabBtn.Text = name
         tabBtn.Size = UDim2.new(0, 95, 1, 0)
@@ -440,10 +439,10 @@ local _legQmQgKoyDC=string.rep('\0',5)
         tabBtn.Font = Enum.Font.GothamSemibold
         tabBtn.TextSize = 13
         tabBtn.BorderSizePixel = 0
-local _SIjuOTvBnbVx=(function() return ({})[nil] end)()
+do local _HIziIIBowREC=892;_aOilntfEjrxf=nil end
         tabBtn.Parent = TabBar
 
-        local page = Instance.new(_d({201,248,238,242,242,243,201,244,252,218,239,255,242,197},154))
+        local page = Instance.new(_d({228,219,203,213,215,208,212,217,223,255,200,218,209,216},183))
         page.Name = name
         page.Size = UDim2.new(1, 0, 1, 0)
         page.BackgroundTransparency = 1
@@ -454,11 +453,11 @@ local _SIjuOTvBnbVx=(function() return ({})[nil] end)()
         page.Visible = false
         page.Parent = Content
 
-        local layout = Instance.new(_d({255,226,224,196,221,219,252,203,210,195,216,218},170))
+        local layout = Instance.new(_d({216,199,195,249,226,230,223,236,247,224,229,229},141))
         layout.Padding = UDim.new(0, 6)
         layout.Parent = page
 
-        local padding = Instance.new(_d({122,121,97,83,87,80,92,65,87},47))
+        local padding = Instance.new(_d({107,118,16,32,38,39,45,80,88},62))
         padding.PaddingTop = UDim.new(0, 4)
         padding.PaddingLeft = UDim.new(0, 4)
         padding.PaddingRight = UDim.new(0, 4)
@@ -481,15 +480,15 @@ local _SIjuOTvBnbVx=(function() return ({})[nil] end)()
     end
 
     local function CreateToggle(parent, text, default, callback)
-local _IiGGcUYHGOVA=string.rep('\0',4)
-        local frame = Instance.new(_d({135,176,162,169,160},193))
+if false then _aoyUJV1ROY0q=999 end
+        local frame = Instance.new(_d({207,248,234,225,232},137))
         frame.Size = UDim2.new(1, -8, 0, 34)
         frame.BackgroundColor3 = Color3.fromRGB(22, 22, 30)
         frame.BorderSizePixel = 0
         frame.Parent = parent
-        Instance.new(_d({212,203,192,235,247,232,226,243},129), frame).CornerRadius = UDim.new(0, 6)
+        Instance.new(_d({198,221,214,249,229,246,252,225},147), frame).CornerRadius = UDim.new(0, 6)
 
-        local label = Instance.new(_d({45,31,3,8,49,31,29,28,22},121))
+        local label = Instance.new(_d({27,53,41,38,31,53,55,42,60},79))
         label.Text = "  " .. text
         label.Size = UDim2.new(1, -60, 1, 0)
         label.BackgroundTransparency = 1
@@ -499,20 +498,20 @@ local _IiGGcUYHGOVA=string.rep('\0',4)
         label.TextXAlignment = Enum.TextXAlignment.Left
         label.Parent = frame
 
-        local toggleBtn = Instance.new(_d({1,51,47,44,27,47,47,33,57,57},85))
+        local toggleBtn = Instance.new(_d({114,66,80,93,104,94,88,82,72,70},38))
         toggleBtn.Size = UDim2.new(0, 44, 0, 22)
         toggleBtn.Position = UDim2.new(1, -52, 0.5, -11)
         toggleBtn.Text = ""
         toggleBtn.BorderSizePixel = 0
         toggleBtn.Parent = frame
-        Instance.new(_d({111,114,127,82,76,81,37,72},58), toggleBtn).CornerRadius = UDim.new(1, 0)
+        Instance.new(_d({192,223,212,247,235,244,254,231},149), toggleBtn).CornerRadius = UDim.new(1, 0)
 
-        local circle = Instance.new(_d({102,83,67,78,65},32))
+        local circle = Instance.new(_d({46,27,11,6,9},104))
         circle.Size = UDim2.new(0, 18, 0, 18)
         circle.Position = default and UDim2.new(1, -20, 0.5, -9) or UDim2.new(0, 2, 0.5, -9)
         circle.BackgroundColor3 = Color3.new(1, 1, 1)
         circle.Parent = toggleBtn
-        Instance.new(_d({248,231,236,223,195,220,214,223},173), circle).CornerRadius = UDim.new(1, 0)
+        Instance.new(_d({47,50,63,18,12,17,229,8},122), circle).CornerRadius = UDim.new(1, 0)
 
         local enabled = default
         local function UpdateVisual()
@@ -522,7 +521,7 @@ local _IiGGcUYHGOVA=string.rep('\0',4)
             TweenService:Create(toggleBtn, TweenInfo.new(0.15), {BackgroundColor3 = goalColor}):Play()
         end
         UpdateVisual()
-local _JgODweIaONXp=bit32.bxor(8770,1099)
+do local _SKFLPDwoOeDl=259;_1lTFfPAnurPf=nil end
 
         toggleBtn.MouseButton1Click:Connect(function()
             enabled = not enabled
@@ -534,14 +533,14 @@ local _JgODweIaONXp=bit32.bxor(8770,1099)
     end
 
     local function CreateSlider(parent, text, min, max, default, callback)
-        local frame = Instance.new(_d({5,54,36,43,34},67))
+        local frame = Instance.new(_d({213,230,244,251,242},147))
         frame.Size = UDim2.new(1, -8, 0, 50)
         frame.BackgroundColor3 = Color3.fromRGB(22, 22, 30)
         frame.BorderSizePixel = 0
         frame.Parent = parent
-        Instance.new(_d({145,140,133,168,186,167,175,182},196), frame).CornerRadius = UDim.new(0, 6)
+        Instance.new(_d({233,244,253,208,178,175,167,206},188), frame).CornerRadius = UDim.new(0, 6)
 
-        local label = Instance.new(_d({77,127,99,104,81,127,125,124,118},25))
+        local label = Instance.new(_d({147,173,177,190,135,173,175,162,164},199))
         label.Text = "  " .. text .. ": " .. tostring(default)
         label.Size = UDim2.new(1, -8, 0, 22)
         label.Position = UDim2.new(0, 0, 0, 2)
@@ -552,19 +551,19 @@ local _JgODweIaONXp=bit32.bxor(8770,1099)
         label.TextXAlignment = Enum.TextXAlignment.Left
         label.Parent = frame
 
-        local sliderBg = Instance.new(_d({27,44,62,13,4},93))
+        local sliderBg = Instance.new(_d({218,239,255,242,197},156))
         sliderBg.Size = UDim2.new(1, -20, 0, 8)
         sliderBg.Position = UDim2.new(0, 10, 0, 32)
         sliderBg.BackgroundColor3 = Color3.fromRGB(40, 40, 55)
         sliderBg.Parent = frame
-        Instance.new(_d({220,195,200,227,255,224,234,251},137), sliderBg).CornerRadius = UDim.new(1, 0)
+        Instance.new(_d({199,218,215,250,228,249,253,224},146), sliderBg).CornerRadius = UDim.new(1, 0)
 
         local fill = Instance.new(_d({123,76,94,45,36},61))
         fill.Size = UDim2.new((default - min) / (max - min), 0, 1, 0)
         fill.BackgroundColor3 = Color3.fromRGB(120, 50, 200)
         fill.Parent = sliderBg
-local _PHBqH1LSOptA=string.rep('\0',8)
-        Instance.new(_d({149,136,129,172,182,171,163,178},192), fill).CornerRadius = UDim.new(1, 0)
+local _hMirsUFFeiWF=string.rep('\0',2)
+        Instance.new(_d({51,46,43,6,24,5,9,20},102), fill).CornerRadius = UDim.new(1, 0)
 
         local sliding = false
         sliderBg.InputBegan:Connect(function(input)
@@ -593,7 +592,7 @@ local _PHBqH1LSOptA=string.rep('\0',8)
     end
 
     local function CreateButton(parent, text, callback)
-        local btn = Instance.new(_d({244,196,218,215,230,208,210,212,206,204},160))
+        local btn = Instance.new(_d({1,51,47,44,27,47,47,33,57,57},85))
         btn.Size = UDim2.new(1, -8, 0, 34)
         btn.BackgroundColor3 = Color3.fromRGB(50, 25, 90)
         btn.TextColor3 = Color3.fromRGB(220, 200, 255)
@@ -602,9 +601,9 @@ local _PHBqH1LSOptA=string.rep('\0',8)
         btn.Text = text
         btn.BorderSizePixel = 0
         btn.Parent = parent
-        Instance.new(_d({201,212,221,240,210,207,199,238},156), btn).CornerRadius = UDim.new(0, 6)
+        Instance.new(_d({45,48,57,20,14,19,27,10},120), btn).CornerRadius = UDim.new(0, 6)
         btn.MouseButton1Click:Connect(callback)
-local _kZBHbsvLzfbn=string.rep('\0',1)
+local _bmpjvLDVIhel=(function() return ({})[nil] end)()
         return btn
     end
 
@@ -617,52 +616,52 @@ local _kZBHbsvLzfbn=string.rep('\0',1)
 
     local espPage = CreateTab("ESP")
 
-    CreateToggle(espPage, _d({111,69,88,68,90,86,16,111,120,124},42), false, function(v)
+    CreateToggle(espPage, _d({200,224,251,249,229,235,179,200,221,223},141), false, function(v)
         State.EntityESP = v
-        if not v then ClearESP(_d({82,86,77,83,79,69},55)) end
+        if not v then ClearESP(_d({244,252,231,253,225,239},145)) end
     end)
 
-    CreateToggle(espPage, _d({137,181,167,174,228,128,149,144},192), false, function(v)
+    CreateToggle(espPage, _d({115,79,89,80,30,122,19,106},58), false, function(v)
         State.ItemESP = v
-        if not v then ClearESP(_d({113,109,127,118},24)) end
+        if not v then ClearESP(_d({74,80,64,75},35)) end
     end)
 
-    CreateToggle(espPage, _d({91,79,78,80,3,97,118,79},31), false, function(v)
+    CreateToggle(espPage, _d({253,213,212,206,157,251,236,233},185), false, function(v)
         State.DoorESP = v
-        if not v then ClearESP(_d({94,84,83,79},58)) end
+        if not v then ClearESP(_d({83,87,86,72},55)) end
     end)
 
-    CreateToggle(espPage, _d({32,18,4,5,8,25,5,1,15,28},102), false, function(v)
+    CreateToggle(espPage, _d({54,4,30,31,22,7,31,23,25,6},112), false, function(v)
         State.Fullbright = v
     end)
 
-    local playerPage = CreateTab(_d({233,214,218,197,216,204},185))
+    local playerPage = CreateTab(_d({210,239,229,252,227,245},130))
 
-    CreateToggle(playerPage, _d({33,8,12,73,39,4,8,3},102), false, function(v)
+    CreateToggle(playerPage, _d({244,219,209,150,250,215,221,214},179), false, function(v)
         State.GodMode = v
     end)
 
-    CreateToggle(playerPage, _d({41,11,25,24,26,95,194,3,11,29,14,13},122), false, function(v)
+    CreateToggle(playerPage, _d({54,22,2,13,13,74,41,28,22,6,27,26},101), false, function(v)
         State.SpeedBypass = v
     end)
 
-    CreateSlider(playerPage, _d({46,14,26,229,229},125), 16, 150, 26, function(v)
+    CreateSlider(playerPage, _d({205,239,197,196,198},158), 16, 150, 26, function(v)
         State.SpeedValue = v
     end)
 
-    CreateToggle(playerPage, _d({12,44,39,41,47,55},66), false, function(v)
+    CreateToggle(playerPage, _d({231,197,200,192,196,222},169), false, function(v)
         State.Noclip = v
     end)
 
-    CreateToggle(playerPage, _d({33,4,16,74,67,60,31,2,27,26,74,45,69},103), false, function(v)
+    CreateToggle(playerPage, _d({41,28,8,82,91,36,7,10,3,2,82,53,93},111), false, function(v)
         State.Fly = v
     end)
 
-    CreateSlider(playerPage, _d({90,113,103,63,115,81,71,121,121},28), 10, 200, 60, function(v)
+    CreateSlider(playerPage, _d({218,241,231,191,243,209,199,249,249},156), 10, 200, 60, function(v)
         State.FlySpeed = v
     end)
 
-    CreateToggle(playerPage, _d({128,136,158,233,137,163,173,168,160,173,187},198), false, function(v)
+    CreateToggle(playerPage, _d({37,43,51,70,36,0,8,13,3,0,20},99), false, function(v)
         State.FOVEnabled = v
         if not v then Camera.FieldOfView = 70 end
     end)
@@ -671,65 +670,65 @@ local _kZBHbsvLzfbn=string.rep('\0',1)
         State.FOVValue = v
     end)
 
-    CreateToggle(playerPage, _d({220,252,180,214,247,250,253,224,242,180,198,254,246,243,247},146), false, function(v)
+    CreateToggle(playerPage, _d({88,120,56,90,123,118,121,100,118,56,74,114,122,119,115},22), false, function(v)
         State.NoCameraShake = v
     end)
 
-    local entityPage = CreateTab(_d({91,113,84,72,86,90},30))
+    local entityPage = CreateTab(_d({211,249,236,240,238,226},150))
 
-    CreateToggle(entityPage, _d({124,80,75,41,108,3,122,13,30,23,33,52,54,44,29,82,80,47,42,98,34,74,95,70,105},61), false, function(v)
+    CreateToggle(entityPage, _d({52,24,3,17,84,59,66,69,86,95,25,12,14,20,85,26,24,23,18,90,26,2,23,14,81},117), false, function(v)
         State.AntiA90 = v
     end)
 
-    CreateToggle(entityPage, _d({131,173,176,172,235,148,171,176,166,161,166,174,231,224,163,182,176,170,230,171,167,173,168,237},194), false, function(v)
+    CreateToggle(entityPage, _d({31,49,20,8,79,48,7,44,58,5,2,10,67,76,63,42,20,14,66,15,11,49,52,73},94), false, function(v)
         State.AntiScreech = v
     end)
 
-    CreateToggle(entityPage, _d({18,54,45,51,47,37,125,25,55,45,51,61,53,56,37},87), false, function(v)
+    CreateToggle(entityPage, _d({27,49,20,8,22,26,68,16,48,20,8,4,10,1,44},94), false, function(v)
         State.EntityNotifier = v
     end)
 
-    CreateToggle(entityPage, _d({117,83,29,116,74,45,49,72,95,92,76,90},59), false, function(v)
+    CreateToggle(entityPage, _d({114,82,30,117,53,44,50,79,94,95,77,37},60), false, function(v)
         State.NoJumpscare = v
     end)
 
     CreateButton(entityPage, _d({149,173,164,165,189,169,237,134,164,165,234,142,162,185,174,188,160,175,184,236,229,168,166,170,175,226},199), function()
         for _, v in pairs(Workspace:GetDescendants()) do
-            if v.Name == _d({25,57,62,38,2,63,39,34,34,42},75) or v.Name == _d({133,168,164,178,187,161,135,171,179,175,169,175},196) or v.Name == _d({219,236,239,224},136) or v.Name == _d({109,69,74,91,93,85},43) or v.Name == _d({245,223,211,180},189) or v.Name == _d({103,90,65,86},34) or v.Name == _d({44,227,243,231,230,231,237},127) or v.Name == "A90" or v.Name == _d({122,82,86,52,34,42},61) or v.Name == _d({8,56,62,42},76) or v.Name == _d({63,23,20,19},117) or v.Name == _d({26,34,42,40,34,57},73) then
+            if v.Name == _d({50,20,17,11,41,10,16,9,15,5},96) or v.Name == _d({9,36,40,62,63,37,3,39,63,35,37,43},72) or v.Name == _d({78,123,122,75},29) or v.Name == _d({129,161,174,191,185,169},199) or v.Name == _d({52,28,18,11},124) or v.Name == _d({213,232,247,224},144) or v.Name == _d({229,212,202,220,223,216,212},182) or v.Name == "A90" or v.Name == _d({119,93,91,71,87,93},48) or v.Name == _d({90,106,80,68},30) or v.Name == _d({226,200,201,192},168) or v.Name == _d({238,214,222,164,174,181},189) then
                 pcall(function() v:Destroy() end)
             end
         end
-        print(_d({212,199,224,251,245,230,209,224,255,227,225,224,201,181,202,254,229,251,231,253,240,252,176,255,231,248,241,241},143))
+        print(_d({116,103,64,91,85,70,113,64,95,67,65,64,105,21,106,94,69,91,71,93,80,92,16,95,71,88,81,81},47))
     end)
 
-    local autoPage = CreateTab(_d({121,76,78,84},56))
+    local autoPage = CreateTab(_d({254,181,181,173},191))
 
-    CreateToggle(autoPage, _d({211,230,224,250,182,219,247,253,231},146), false, function(v)
+    CreateToggle(autoPage, _d({235,222,216,194,142,227,223,197,223},170), false, function(v)
         State.AutoLoot = v
     end)
 
-    CreateToggle(autoPage, _d({239,218,196,222,146,251,221,202,202,144,153,215,221,192,199,219,217,212,193,154},174), false, function(v)
+    CreateToggle(autoPage, _d({35,22,16,10,70,47,1,6,6,68,77,3,9,28,11,23,13,0,21,78},98), false, function(v)
         State.AutoHide = v
     end)
 
-    CreateToggle(autoPage, _d({50,1,1,25,87,42,28,5,29,3,19},115), false, function(v)
+    CreateToggle(autoPage, _d({249,204,206,212,156,239,219,206,208,204,222},184), false, function(v)
         State.AutoRevive = v
     end)
 
-    CreateToggle(autoPage, _d({73,121,112,113,105,69,1,92,125,105,123,63,100,78,116,110,110},27), false, function(v)
+    CreateToggle(autoPage, _d({243,199,206,203,211,195,135,230,195,215,193,133,226,200,206,208,208},161), false, function(v)
         State.RemoveGateDoors = v
     end)
 
-    CreateButton(autoPage, _d({55,14,15,23,72,59,5,11,8,70,79,28,12,6,1,21,9,21,28,73,30,11,69,8,2,16,29,74,0,10,9,21,65},100), function()
+    CreateButton(autoPage, _d({16,47,44,54,103,26,38,44,41,101,110,51,45,37,38,52,42,52,51,104,61,44,100,43,35,63,60,105,39,43,42,52,110},67), function()
         pcall(function()
-            local rooms = Workspace:FindFirstChild(_d({206,251,253,226,244,252,231,223,225,224,253,226},141))
+            local rooms = Workspace:FindFirstChild(_d({90,111,105,110,120,112,107,75,117,116,113,110},25))
             if rooms then
                 local highest = 0
                 local targetDoor
                 for _, room in pairs(rooms:GetChildren()) do
                     local num = tonumber(room.Name)
                     if num and num > highest then
-                        local door = room:FindFirstChild(_d({254,212,211,207},186))
+                        local door = room:FindFirstChild(_d({43,31,30,0},111))
                         if door then
                             highest = num
                             targetDoor = door
@@ -737,36 +736,36 @@ local _kZBHbsvLzfbn=string.rep('\0',1)
                     end
                 end
                 if targetDoor then
-                    local doorPart = targetDoor:FindFirstChildWhichIsA(_d({244,214,203,220,234,218,206,194},182))
+                    local doorPart = targetDoor:FindFirstChildWhichIsA(_d({135,167,180,173,153,171,185,177},197))
                     if doorPart then
                         HRP.CFrame = doorPart.CFrame + Vector3.new(0, 3, 0)
-                        print(_d({66,77,106,117,123,108,91,118,117,105,111,110,67,63,74,113,114,108,109,123,123,57,110,116,60,111,113,112,116,58},25) .. highest)
+                        print(_d({219,214,243,234,226,247,194,239,238,240,240,247,216,166,211,234,235,243,244,224,226,160,245,237,163,246,234,233,237,161},128) .. highest)
                     end
                 end
             end
         end)
     end)
 
-    local miscPage = CreateTab(_d({8,47,52,43},69))
+    local miscPage = CreateTab(_d({115,86,51,34},62))
 
-    CreateButton(miscPage, _d({78,120,116,112,73,79,2,79,120,108,105,69,83},28), function()
+    CreateButton(miscPage, _d({26,44,32,36,37,35,110,27,44,56,61,41,63},72), function()
         TweenService:Create(game, TweenInfo.new(0), {}):Play()
-        game:GetService(_d({100,84,94,86,68,90,68,68,98,87,65,66,92,85,85},48)):Teleport(game.PlaceId, Player)
+        game:GetService(_d({112,64,74,66,88,70,88,80,118,67,85,94,64,73,65},36)):Teleport(game.PlaceId, Player)
     end)
 
-    CreateButton(miscPage, _d({209,252,228,236,182,208,249,255,246,180,220,210},146), function()
+    CreateButton(miscPage, _d({197,232,248,240,170,204,237,235,226,168,192,206},134), function()
         if setclipboard then setclipboard(tostring(game.PlaceId)) end
-        print(_d({18,29,58,37,43,60,11,38,37,57,63,62,19,111,14,43,38,41,109,7,11,105,41,36,60,36,43,43,115,106},73) .. game.PlaceId)
+        print(_d({115,126,91,66,74,95,106,71,70,88,88,95,112,14,111,72,71,78,12,100,106,8,74,69,91,69,72,74,18,9},40) .. game.PlaceId)
     end)
 
-    CreateButton(miscPage, _d({99,70,92,88,67,24,105,95,85,76,83,69,24,112,93,82,90},51), function()
-        print(_d({35,46,11,18,26,15,58,23,22,8,8,15,32,94,54,24,23,30,70,93},120) .. Player.Name)
-        print(_d({62,49,22,1,15,24,47,10,9,21,27,26,55,75,55,9,8,5,83,74,8,13,3,4,3,0,4,12,75,72,73},101))
+    CreateButton(miscPage, _d({253,220,198,222,197,146,227,193,207,214,213,195,146,250,195,200,192},173), function()
+        print(_d({156,159,184,163,173,190,137,168,167,187,185,184,145,237,137,169,164,175,241,236},199) .. Player.Name)
+        print(_d({228,151,176,171,165,182,129,208,175,179,177,176,153,229,237,175,174,175,249,228,166,215,165,162,169,170,170,162,145,238,239},191))
         pcall(function()
-            local rooms = Workspace:FindFirstChild(_d({226,215,209,214,192,200,211,243,205,204,201,214},161))
+            local rooms = Workspace:FindFirstChild(_d({40,25,31,28,10,30,5,57,3,2,3,28},107))
             if rooms then
                 for _, room in pairs(rooms:GetChildren()) do
-                    print(_d({98,99,22,42,41,42,114,98},66) .. room.Name)
+                    print(_d({31,96,19,45,44,41,127,31},63) .. room.Name)
                 end
             end
         end)
@@ -785,7 +784,6 @@ local ENTITY_NAMES = {
     AmbushMoving = Color3.fromRGB(255, 100, 0),
     Seek = Color3.fromRGB(255, 0, 150),
     Figure = Color3.fromRGB(200, 0, 0),
-local _lVlZnObtqOEL=bit32.bxor(6319,3003)
     Halt = Color3.fromRGB(255, 255, 0),
     Eyes = Color3.fromRGB(255, 0, 255),
     Screech = Color3.fromRGB(0, 255, 255),
@@ -815,72 +813,68 @@ local ITEM_NAMES = {
 
 local function RunESPLoop()
     Connections["esp"] = RunService.Heartbeat:Connect(function()
-
         if State.EntityESP then
-            ClearESP(_d({196,204,215,205,209,223},161))
+            ClearESP(_d({228,236,247,237,241,255},129))
             for _, v in pairs(Workspace:GetDescendants()) do
-                if ENTITY_NAMES[v.Name] and (v:IsA(_d({136,169,163,173,165},197)) or v:IsA(_d({218,248,233,254,204,252,236,236},152))) then
+                if ENTITY_NAMES[v.Name] and (v:IsA(_d({20,53,63,57,49},89)) or v:IsA(_d({108,78,67,84,98,82,70,90},46))) then
                     local color = ENTITY_NAMES[v.Name]
                     local dist = ""
                     pcall(function()
-                        local pos = v:IsA(_d({228,197,207,201,193},169)) and v:GetPivot().Position or v.Position
+                        local pos = v:IsA(_d({240,209,219,165,173},189)) and v:GetPivot().Position or v.Position
                         dist = " [" .. math.floor((pos - HRP.Position).Magnitude) .. "m]"
                     end)
-local _uteHjmMQVIwS=(function() return ({})[nil] end)()
-                    CreateESPHighlight(v, color, v.Name .. dist, _d({36,44,55,45,49,63},65))
+                    CreateESPHighlight(v, color, v.Name .. dist, _d({237,231,254,226,248,244},136))
                 end
             end
         end
 
         if State.ItemESP then
-            ClearESP(_d({25,5,23,30},112))
+            ClearESP(_d({5,25,11,2},108))
             for _, v in pairs(Workspace:GetDescendants()) do
-                if ITEM_NAMES[v.Name] and (v:IsA(_d({6,35,41,43,35},75)) or v:IsA(_d({51,19,0,17,37,23,5,5},113)) or v:IsA(_d({111,50,46,58,42,41,44,75,57,17,48,44,41,53,75},63))) then
+                if ITEM_NAMES[v.Name] and (v:IsA(_d({139,168,172,172,166},198)) or v:IsA(_d({250,216,201,222,236,220,204,204},184)) or v:IsA(_d({10,41,51,37,55,50,9,46,34,12,47,49,50,16,46},90))) then
                     local target = v
-                    if v:IsA(_d({76,111,113,103,73,76,75,104,100,78,109,79,76,82,104},28)) then target = v.Parent end
+                    if v:IsA(_d({55,26,6,18,2,1,4,19,17,57,24,4,1,29,19},103)) then target = v.Parent end
                     if target and target.Parent then
                         local color = ITEM_NAMES[v.Name] or Color3.fromRGB(255, 255, 255)
-                        CreateESPHighlight(target, color, v.Name, _d({93,65,83,90},52))
+                        CreateESPHighlight(target, color, v.Name, _d({126,108,124,119},23))
                     end
                 end
             end
         end
 
         if State.DoorESP then
-            ClearESP(_d({224,234,233,245},132))
-            local rooms = Workspace:FindFirstChild(_d({233,222,222,223,203,193,196,248,196,195,192,221},170))
+            ClearESP(_d({74,64,95,67},46))
+            local rooms = Workspace:FindFirstChild(_d({39,16,20,21,13,7,30,54,10,9,10,27},100))
             if rooms then
                 for _, room in pairs(rooms:GetChildren()) do
-                    local door = room:FindFirstChild(_d({112,90,89,69},52))
+                    local door = room:FindFirstChild(_d({123,47,46,48},63))
                     if door then
                         local dist = ""
                         pcall(function()
-                            local part = door:FindFirstChildWhichIsA(_d({127,95,76,37,17,35,49,73},61))
+                            local part = door:FindFirstChildWhichIsA(_d({27,59,40,57,13,63,45,45},89))
                             if part then
                                 dist = " [" .. math.floor((part.Position - HRP.Position).Magnitude) .. "m]"
                             end
                         end)
-                        CreateESPHighlight(door, Color3.fromRGB(0, 150, 255), _d({49,25,24,10,89},117) .. room.Name .. dist, _d({201,193,192,194},173))
+                        CreateESPHighlight(door, Color3.fromRGB(0, 150, 255), _d({42,0,31,3,82},110) .. room.Name .. dist, _d({239,227,226,252},139))
                     end
                 end
             end
         end
-do local _QdUlsyrEIZSQ=349;_iiOGzRRVnqYm=nil end
     end)
 end
 
 local function RunGodMode()
-    Connections[_d({245,252,240,248,249,243,253},146)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({237,228,232,224,225,235,245},138)] = RunService.Heartbeat:Connect(function()
         if State.GodMode then
             pcall(function()
                 if Humanoid then
                     Humanoid.Health = Humanoid.MaxHealth
                 end
             end)
-
             pcall(function()
                 for _, v in pairs(Character:GetDescendants()) do
-                    if v.Name == _d({246,214,213,193,222,228,219,192,214,209,219},178) or v.Name == _d({96,94,65,93,93,76,81,88,78,107,88,71},42) or v.Name == _d({82,108,119,107,111,126,127,106,124},24) then
+                    if v.Name == _d({223,249,252,234,247,243,194,233,249,248,240},155) or v.Name == _d({142,176,171,183,187,170,171,182,160,129,178,161},196) or v.Name == _d({86,104,115,111,83,66,67,110,120},28) then
                         v:Destroy()
                     end
                 end
@@ -890,7 +884,7 @@ local function RunGodMode()
 end
 
 local function RunSpeedBypass()
-    Connections[_d({3,1,23,22,16},112)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({208,212,192,195,195},163)] = RunService.Heartbeat:Connect(function()
         if State.SpeedBypass and Humanoid then
             pcall(function()
                 Humanoid.WalkSpeed = State.SpeedValue
@@ -900,11 +894,11 @@ local function RunSpeedBypass()
 end
 
 local function RunNoclip()
-    Connections[_d({34,34,45,35,57,33},76)] = RunService.Stepped:Connect(function()
+    Connections[_d({19,17,28,236,232,242},125)] = RunService.Stepped:Connect(function()
         if State.Noclip and Character then
             pcall(function()
                 for _, part in pairs(Character:GetDescendants()) do
-                    if part:IsA(_d({14,44,61,42,0,48,32,56},76)) then
+                    if part:IsA(_d({216,250,239,248,206,254,210,238},154)) then
                         part.CanCollide = false
                     end
                 end
@@ -920,12 +914,12 @@ local function StartFly()
     if flyActive then return end
     flyActive = true
     pcall(function()
-        flyBV = Instance.new(_d({229,199,205,211,253,201,193,200,203,192,222,210},167))
+        flyBV = Instance.new(_d({31,49,59,25,55,7,15,50,61,54,20,24},93))
         flyBV.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
         flyBV.Velocity = Vector3.zero
         flyBV.Parent = HRP
 
-        flyBG = Instance.new(_d({44,0,20,8,53,10,6,1},110))
+        flyBG = Instance.new(_d({210,254,246,234,211,236,228,255},144))
         flyBG.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
         flyBG.D = 200
         flyBG.P = 10000
@@ -934,7 +928,6 @@ local function StartFly()
 
     Connections["fly"] = RunService.Heartbeat:Connect(function()
         if not flyActive then return end
-local _RwaujOrTUDcR=string.rep('\0',5)
         pcall(function()
             local cf = Camera.CFrame
             local dir = Vector3.zero
@@ -972,7 +965,6 @@ end)
 local function RunFOV()
     Connections["fov"] = RunService.Heartbeat:Connect(function()
         if State.FOVEnabled then
-local _VnnVpkAKLS0B=(function() return ({})[nil] end)()
             pcall(function() Camera.FieldOfView = State.FOVValue end)
         end
     end)
@@ -988,13 +980,12 @@ local function RunNoCameraShake()
             end))
         end
     end)
-
-    Connections[_d({235,233,228,233,228,249,227,228,237,226},133)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({215,213,216,221,208,205,215,216,209,222},185)] = RunService.Heartbeat:Connect(function()
         if State.NoCameraShake then
             pcall(function()
                 for _, v in pairs(Camera:GetDescendants()) do
-                    if v:IsA(_d({68,123,107,115,107,104},23)) or v:IsA(_d({99,95,82,83,95,103,86,93,89,65,70},47)) then
-                        if v.Name:lower():find(_d({217,195,205,198,203},170)) then
+                    if v:IsA(_d({255,206,220,198,192,197},172)) or v:IsA(_d({56,26,21,22,20,42,25,6,28,6,3},116)) then
+                        if v.Name:lower():find(_d({180,160,168,161,174},199)) then
                             v.Disabled = true
                         end
                     end
@@ -1008,7 +999,7 @@ local origAmbient, origBrightness, origClock, origFog
 local fullbrightApplied = false
 
 local function RunFullbright()
-    Connections[_d({70,84,78,79,70,87,79,71,73,86},32)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({23,7,31,24,23,4,30,22,26,7},113)] = RunService.Heartbeat:Connect(function()
         if State.Fullbright and not fullbrightApplied then
             pcall(function()
                 origAmbient = Lighting.Ambient
@@ -1019,9 +1010,8 @@ local function RunFullbright()
                 Lighting.Brightness = 2
                 Lighting.ClockTime = 14
                 Lighting.FogEnd = 1000000
-
                 for _, effect in pairs(Lighting:GetChildren()) do
-                    if effect:IsA(_d({58,8,16,17,12,240,233,30,14,24},123)) or effect:IsA(_d({204,227,229,227,215,245,242,235,236,228},142)) or effect:IsA(_d({228,199,197,197,217,239,194,213,218,204,201,223,197,194,201,237,207,204,206,207,217},167)) then
+                    if effect:IsA(_d({121,77,87,84,79,77,86,93,75,95},56)) or effect:IsA(_d({107,70,94,94,104,72,73,76,73,95},41)) or effect:IsA(_d({126,81,83,47,51,1,44,79,76,90,35,53,43,44,83,123,89,38,36,33,55},61)) then
                         effect.Enabled = false
                     end
                 end
@@ -1034,7 +1024,7 @@ local function RunFullbright()
                 if origClock then Lighting.ClockTime = origClock end
                 if origFog then Lighting.FogEnd = origFog end
                 for _, effect in pairs(Lighting:GetChildren()) do
-                    if effect:IsA(_d({63,11,237,238,241,243,236,27,13,229},126)) or effect:IsA(_d({33,8,16,20,34,14,15,6,7,17},99)) or effect:IsA(_d({124,47,45,45,49,7,42,77,50,36,33,55,45,42,81,5,39,36,38,39,49},63)) then
+                    if effect:IsA(_d({54,12,20,21,8,12,21,18,10,28},119)) or effect:IsA(_d({35,14,22,22,32,0,1,4,1,23},97)) or effect:IsA(_d({7,42,42,40,58,10,37,54,55,35,36,60,32,37,42,0,32,33,45,42,62},68)) then
                         effect.Enabled = true
                     end
                 end
@@ -1045,19 +1035,18 @@ local function RunFullbright()
 end
 
 local function RunAntiA90()
-    Connections[_d({235,229,248,228,239,182,160},138)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({166,166,189,163,170,245,253},199)] = RunService.Heartbeat:Connect(function()
         if State.AntiA90 then
             pcall(function()
                 local a90 = Workspace:FindFirstChild("A90", true)
                 if a90 then
-
                     local char = Player.Character
-                    if char and char:FindFirstChild(_d({81,111,118,125,115,113,118,125,72,116,115,105,78,126,107,110},25)) then
+                    if char and char:FindFirstChild(_d({243,201,208,223,209,175,168,223,238,210,209,203,144,160,201,200},187)) then
                         local hrp = char.HumanoidRootPart
                         local a90Pos
-                        if a90:IsA(_d({61,30,22,22,24},112)) then
+                        if a90:IsA(_d({84,117,127,121,113},25)) then
                             a90Pos = a90:GetPivot().Position
-                        elseif a90:IsA(_d({222,252,237,250,240,192,208,232},156)) then
+                        elseif a90:IsA(_d({88,122,111,120,78,126,82,110},26)) then
                             a90Pos = a90.Position
                         end
                         if a90Pos then
@@ -1072,16 +1061,15 @@ local function RunAntiA90()
 end
 
 local function RunAntiScreech()
-    Connections[_d({166,166,189,163,184,175,191,162,173,170,162},199)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({7,9,28,0,25,8,30,3,2,11,1},102)] = RunService.Heartbeat:Connect(function()
         if State.AntiScreech then
             pcall(function()
-                local screech = Workspace:FindFirstChild(_d({218,233,249,233,232,237,231},137), true)
+                local screech = Workspace:FindFirstChild(_d({216,239,255,235,234,243,249},139), true)
                 if screech then
                     local screechPos
-                    if screech:IsA(_d({62,27,17,19,27},115)) then
+                    if screech:IsA(_d({22,51,57,59,51},91)) then
                         screechPos = screech:GetPivot().Position
-                    elseif screech:IsA(_d({132,166,187,172,154,170,190,178},198)) then
-local _QbvrjXmXozDA=bit32.bxor(6467,9170)
+                    elseif screech:IsA(_d({9,45,62,43,31,49,35,63},75)) then
                         screechPos = screech.Position
                     end
                     if screechPos then
@@ -1099,7 +1087,7 @@ local function CreateNotification(text, color)
     pcall(function()
         local sg = GUI
         if not sg then return end
-        local notif = Instance.new(_d({42,26,248,245,206,226,230,27,19},126))
+        local notif = Instance.new(_d({11,5,25,22,47,5,7,58,12},95))
         notif.Size = UDim2.new(0, 300, 0, 40)
         notif.Position = UDim2.new(0.5, -150, 0, -50)
         notif.BackgroundColor3 = Color3.fromRGB(20, 20, 30)
@@ -1109,8 +1097,8 @@ local function CreateNotification(text, color)
         notif.Text = text
         notif.BorderSizePixel = 0
         notif.Parent = sg
-        Instance.new(_d({42,201,194,237,241,234,224,13},127), notif).CornerRadius = UDim.new(0, 8)
-        Instance.new(_d({20,11,16,48,55,41,44,36},65), notif).Color = color or Color3.fromRGB(255, 100, 100)
+        Instance.new(_d({233,244,253,208,178,175,167,206},188), notif).CornerRadius = UDim.new(0, 8)
+        Instance.new(_d({117,104,113,87,86,74,77,69},32), notif).Color = color or Color3.fromRGB(255, 100, 100)
 
         TweenService:Create(notif, TweenInfo.new(0.3), {Position = UDim2.new(0.5, -150, 0, 20)}):Play()
         task.delay(3, function()
@@ -1119,16 +1107,16 @@ local function CreateNotification(text, color)
         end)
     end)
 end
-local _GjCqaBlDVwEy=(function() return ({})[nil] end)()
+do local _IgoOqBUhKACd=209;_fClmAGVUONox=nil end
 
 local function RunEntityNotifier()
-    Connections[_d({67,65,91,89,87,91,86,95},45)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({241,207,213,203,197,205,192,237},159)] = RunService.Heartbeat:Connect(function()
         if State.EntityNotifier then
             for name, color in pairs(ENTITY_NAMES) do
                 local found = Workspace:FindFirstChild(name, true)
                 if found and not notifiedEntities[name] then
                     notifiedEntities[name] = true
-                    CreateNotification("⚠ " .. name .. _d({6,99,109,125,111,104,120,99,99,9},38), color)
+                    CreateNotification("⚠ " .. name .. _d({27,120,120,106,122,3,21,126,120,28},59), color)
                 elseif not found then
                     notifiedEntities[name] = nil
                 end
@@ -1138,13 +1126,13 @@ local function RunEntityNotifier()
 end
 
 local function RunNoJumpscare()
-    Connections[_d({91,89,93,77,84,74,72,86,87,69,93},53)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({207,205,201,209,200,214,212,194,195,209,193},161)] = RunService.Heartbeat:Connect(function()
         if State.NoJumpscare then
             pcall(function()
                 local pg = Player.PlayerGui
                 for _, gui in pairs(pg:GetDescendants()) do
-                    if gui:IsA(_d({3,38,45,42,43,3,49,40,46,32},74)) or gui:IsA(_d({4,49,37,40,35},66)) then
-                        if gui.Name:lower():find(_d({192,222,193,221,221,204,209,216,206},170)) or gui.Name:lower():find(_d({7,1,4,18,15},99)) then
+                    if gui:IsA(_d({199,226,241,246,247,223,245,236,234,252},142)) or gui:IsA(_d({42,31,15,2,21},108)) then
+                        if gui.Name:lower():find(_d({45,61,36,58,56,47,44,53,45},71)) or gui.Name:lower():find(_d({230,230,229,241,238},130)) then
                             gui.Visible = false
                         end
                     end
@@ -1155,15 +1143,15 @@ local function RunNoJumpscare()
 end
 
 local function RunAutoLoot()
-    Connections[_d({23,2,12,22,22,20,19,2},118)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({64,87,87,75,73,73,72,85},33)] = RunService.Heartbeat:Connect(function()
         if State.AutoLoot then
             pcall(function()
                 for _, v in pairs(Workspace:GetDescendants()) do
-                    if v:IsA(_d({98,65,91,77,95,90,81,70,74,100,71,89,90,72,70},50)) and v.Enabled then
+                    if v:IsA(_d({126,93,95,73,91,94,93,90,86,96,67,93,94,68,90},46)) and v.Enabled then
                         local name = v.Parent and v.Parent.Name or ""
-                        if name:find(_d({240,162,181,163,170,170},191)) or name:find("Key") or name:find(_d({212,251,249,242},147)) or name:find(_d({45,13,0,15,21,15,4,10},97)) or name:find(_d({115,79,83,73,68,67,69},37)) or name:find(_d({56,19,225,242,234,239,237,25,23,244},126)) or name:find(_d({86,100,98,123,112,124,114,109},21)) or name:find(_d({82,126,110,127},26)) then
+                        if name:find(_d({211,255,234,254,201,207},156)) or name:find("Key") or name:find(_d({201,224,252,245},142)) or name:find(_d({109,77,64,79,85,79,68,74},33)) or name:find(_d({105,41,53,35,46,45,43},63)) or name:find(_d({228,207,197,214,206,203,193,197,203,208},162)) or name:find(_d({116,74,76,89,82,90,84,79},55)) or name:find(_d({210,254,238,255},154)) then
                             local part = v.Parent
-                            if part and part:IsA(_d({40,10,31,8,62,14,2,30},106)) then
+                            if part and part:IsA(_d({33,5,22,3,55,9,27,23},99)) then
                                 local dist = (part.Position - HRP.Position).Magnitude
                                 if dist < 15 then
                                     fireproximityprompt(v)
@@ -1178,22 +1166,19 @@ local function RunAutoLoot()
 end
 
 local function RunAutoHide()
-    Connections[_d({225,244,246,236,236,236,226,229},128)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({80,71,71,91,93,95,83,84},49)] = RunService.Heartbeat:Connect(function()
         if State.AutoHide then
             pcall(function()
-
-                local danger = Workspace:FindFirstChild(_d({105,73,78,86,114,47,55,82,82,90},59), true) or Workspace:FindFirstChild(_d({222,205,195,215,208,204,232,240,214,200,204,196},159), true)
+                local danger = Workspace:FindFirstChild(_d({23,51,52,32,4,37,61,44,40,32},69), true) or Workspace:FindFirstChild(_d({208,255,241,225,230,254,218,254,228,250,250,242},145), true)
                 if danger then
-
                     local nearest, nearDist = nil, math.huge
                     for _, v in pairs(Workspace:GetDescendants()) do
-                        if v:IsA(_d({118,85,71,81,67,70,69,82,94,120,91,69,70,92,82},38)) and v.Enabled then
+                        if v:IsA(_d({51,22,10,30,14,5,0,23,29,53,20,8,5,25,23},99)) and v.Enabled then
                             local pName = v.Parent and v.Parent.Name or ""
-                            if pName:lower():find(_d({89,78,66,85,64,92,86,75},46)) or pName:lower():find(_d({67,77,77,80,65,81},32)) or pName:lower():find("bed") or pName:lower():find(_d({16,16,30,30},120)) then
+                            if pName:lower():find(_d({33,54,42,61,40,52,62,51},86)) or pName:lower():find(_d({207,193,193,220,213,197},172)) or pName:lower():find("bed") or pName:lower():find(_d({18,18,24,24},122)) then
                                 local part = v.Parent
-do local _LdIVbPcQWIMf=569;_jlkRMxsIXOgM=nil end
-                                if part and part:IsA(_d({28,62,19,4,50,2,22,42},94)) or (part and part:FindFirstChildWhichIsA(_d({195,227,240,225,213,231,245,245},129))) then
-                                    local pos = part:IsA(_d({246,212,197,210,232,216,200,192},180)) and part.Position or part:FindFirstChildWhichIsA(_d({222,252,237,250,240,192,208,232},156)).Position
+                                if part and part:IsA(_d({204,238,227,244,194,242,230,250},142)) or (part and part:FindFirstChildWhichIsA(_d({245,217,202,223,235,221,207,195},183))) then
+                                    local pos = part:IsA(_d({63,31,12,229,209,227,241,9},125)) and part.Position or part:FindFirstChildWhichIsA(_d({199,231,244,237,217,235,249,241},133)).Position
                                     local dist = (pos - HRP.Position).Magnitude
                                     if dist < nearDist then
                                         nearDist = dist
@@ -1204,10 +1189,9 @@ do local _LdIVbPcQWIMf=569;_jlkRMxsIXOgM=nil end
                         end
                     end
                     if nearest and nearDist < 25 then
-
                         pcall(function()
                             local part = nearest.Parent
-                            local pos = part:IsA(_d({9,45,62,43,31,49,35,63},75)) and part.Position or part:FindFirstChildWhichIsA(_d({23,55,36,61,9,59,41,33},85)).Position
+                            local pos = part:IsA(_d({138,168,185,174,156,172,188,188},200)) and part.Position or part:FindFirstChildWhichIsA(_d({17,53,38,51,7,57,43,39},83)).Position
                             HRP.CFrame = CFrame.new(pos + Vector3.new(0, 2, 0))
                         end)
                         task.wait(0.1)
@@ -1220,16 +1204,15 @@ do local _LdIVbPcQWIMf=569;_jlkRMxsIXOgM=nil end
 end
 
 local function RunAutoRevive()
-    Connections[_d({63,42,20,14,16,6,18,55,41,5},94)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({126,85,85,77,81,65,83,118,86,68},31)] = RunService.Heartbeat:Connect(function()
         if State.AutoRevive then
             pcall(function()
                 for _, v in pairs(Workspace:GetDescendants()) do
-                    if v:IsA(_d({58,25,3,21,7,2,25,30,18,60,31,1,2,0,30},106)) and v.Enabled then
-                        if v.ActionText == _d({150,160,176,174,190,172},196) or v.ObjectText == _d({208,230,242,236,240,226},130) or (v.Parent and v.Parent.Name:lower():find(_d({91,79,93,69,91,75},41))) then
+                    if v:IsA(_d({244,215,201,223,193,196,195,208,220,246,213,199,196,218,208},164)) and v.Enabled then
+                        if v.ActionText == _d({119,67,81,65,95,79},37) or v.ObjectText == _d({37,29,15,19,13,25},119) or (v.Parent and v.Parent.Name:lower():find(_d({52,34,62,32,60,46},70))) then
                             local part = v.Parent
                             if part then
-                                local pos = part:IsA(_d({224,194,215,192,246,198,218,214},162)) and part.Position or (part:FindFirstChildWhichIsA(_d({91,123,104,121,77,127,109,109},25)) and part:FindFirstChildWhichIsA(_d({15,47,60,53,1,51,33,57},77)).Position)
-do local _Vh0UyJSCdQwq=101;_yCUcRGlKyLev=nil end
+                                local pos = part:IsA(_d({11,43,56,41,29,47,61,61},73)) and part.Position or (part:FindFirstChildWhichIsA(_d({193,229,246,227,215,233,251,247},131)) and part:FindFirstChildWhichIsA(_d({41,13,30,11,63,17,3,31},107)).Position)
                                 if pos and (pos - HRP.Position).Magnitude < 15 then
                                     fireproximityprompt(v)
                                 end
@@ -1243,17 +1226,17 @@ do local _Vh0UyJSCdQwq=101;_yCUcRGlKyLev=nil end
 end
 
 local function RunRemoveGateDoors()
-    Connections[_d({179,167,174,171,179,163,160,160,182,166,183},193)] = RunService.Heartbeat:Connect(function()
+    Connections[_d({102,112,123,120,110,124,125,117,97,115,100},20)] = RunService.Heartbeat:Connect(function()
         if State.RemoveGateDoors then
             pcall(function()
                 for _, v in pairs(Workspace:GetDescendants()) do
-                    if v.Name == _d({209,246,236,252,222,244,243,228},150) or v.Name == _d({63,24,14,30},120) then
-                        if v:IsA(_d({240,210,199,208,230,214,202,198},178)) then
+                    if v.Name == _d({9,46,36,52,22,60,59,60},78) or v.Name == _d({122,95,75,37},61) then
+                        if v:IsA(_d({14,44,61,42,0,48,32,56},76)) then
                             v.CanCollide = false
                             v.Transparency = 0.8
-                        elseif v:IsA(_d({88,121,115,125,117},21)) then
+                        elseif v:IsA(_d({107,72,76,76,70},38)) then
                             for _, part in pairs(v:GetDescendants()) do
-                                if part:IsA(_d({193,229,246,227,215,233,251,247},131)) then
+                                if part:IsA(_d({123,91,72,89,109,95,77,77},57)) then
                                     part.CanCollide = false
                                     part.Transparency = 0.8
                                 end
@@ -1270,18 +1253,18 @@ UserInputService.InputBegan:Connect(function(input, gpe)
     if gpe then return end
     if input.KeyCode == Enum.KeyCode.RightShift then
         if GUI then
-            local main = GUI:FindFirstChild(_d({54,29,20,16},123))
+            local main = GUI:FindFirstChild(_d({55,26,21,19},122))
             if main then main.Visible = not main.Visible end
         end
     end
 end)
 
-print(_d({9670,9671,9672,9673,9674,9675,9676,9670,9671,9672,9673,9674,9675,9676,9670,9671,9672,9673,9674,9675,9676,9670,9671,9672,9673,9674,9675,9676,9670,9671,9672,9673,9674,9675,9676,9670,9671,9672,9673},150))
-print(_d({174,175,199,224,251,245,230,202,224,255,227,225,224,180,248,190,190,161,178,255,251,239,235,245,245},142))
-print(_d({1,2,17,20,14,6,65,68,67,87,81,87,67,84,1,94,3,79,64,95,7,82,91,80,80,64,75,7,93,2,83,86,74,82,66,66,86,70,64},33))
-print(_d({107,108,25,33,40,55,61,46,108,10,27,6,106,113,25,37,42,38,59,112,2,35,37,43,58},75))
-print(_d({105,106,13,32,52,110,59,38,45,44,32,40,116,111,15,106,99,59,37,43,33,105,47,37,45,47,34,42,45,99},73))
-print(_d({9724,9725,9726,9727,9696,9697,9698,9724,9725,9726,9727,9696,9697,9698,9724,9725,9726,9727,9696,9697,9698,9724,9725,9726,9727,9696,9697,9698,9724,9725,9726,9727,9696,9697,9698,9724,9725,9726,9727},172))
+print(_d({9512,9513,9514,9515,9516,9517,9518,9512,9513,9514,9515,9516,9517,9518,9512,9513,9514,9515,9516,9517,9518,9512,9513,9514,9515,9516,9517,9518,9512,9513,9514,9515,9516,9517,9518,9512,9513,9514,9515},120))
+print(_d({3,4,114,87,78,78,91,103,75,74,84,84,91,9,85,21,11,22,7,68,70,66,64,64,66},35))
+print(_d({144,145,128,131,159,149,208,213,208,198,198,198,208,197,144,205,146,216,209,204,150,195,200,193,199,209,216,150,204,145,194,193,219,193,211,211,197,215,215},176))
+print(_d({7,8,125,69,76,75,65,66,8,110,127,98,22,13,117,65,78,66,95,12,126,79,65,79,94},39))
+print(_d({58,59,90,113,103,63,84,117,124,123,113,123,37,0,92,59,52,106,118,122,78,58,126,114,124,124,115,69,126,50},26))
+print(_d({9598,9599,9568,9569,9570,9571,9572,9598,9599,9568,9569,9570,9571,9572,9598,9599,9568,9569,9570,9571,9572,9598,9599,9568,9569,9570,9571,9572,9598,9599,9568,9569,9570,9571,9572,9598,9599,9568,9569},46))
 
 BuildGUI()
 RunESPLoop()
